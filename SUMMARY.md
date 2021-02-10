@@ -1,11 +1,14 @@
 # Table of contents
 
 * [Начальный раздел](README.md)
-* [Модуль 1. Введение в мобильное программирование](module1_introduction.md)
 
 ## Модуль 1. Введение в мобильное программирование
 
-* [Разработка мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/mobile_app_development.md)
+* [Разработка мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/statistics.md)
+* [Что такое мобильное программирование?](modul-1.-vvedenie-v-mobilnoe-programmirovanie/mobile_programming.md)
+* [Нативный и кроссплатформенный подходы и их различия](modul-1.-vvedenie-v-mobilnoe-programmirovanie/comparison_native_cross.md)
+* [Требования к квалификации разработчиков](modul-1.-vvedenie-v-mobilnoe-programmirovanie/developers_demands.md)
+* [Общие схемы разработки мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/obshie-skhemy-razrabotki-mobilnykh-prilozhenii.md)
 
 ## Модуль 2. Особенности нативной разработки для Android
 
