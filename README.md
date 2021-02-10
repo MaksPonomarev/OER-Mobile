@@ -1,10 +1,8 @@
-# OER-Mobile
+# Начальный раздел
 
-Hello GitBook! How are you?
+Здравствуйте, в этом разделе вы познакомитесь с мобильным программированием, узнаете платфоры для которых разрабываются мобильные приложения и какие инструменты необходимо использовать.
 
-Hi I'm fine and I guess that I figured how to connect to each other!
+{% page-ref page="module1\_introduction.md" %}
 
-HELLO EVERYBODY!
 
-HELLO SLACK!
 

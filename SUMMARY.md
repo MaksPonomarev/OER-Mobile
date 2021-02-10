@@ -1,19 +1,20 @@
 # Table of contents
 
-* [OER-Mobile](README.md)
+* [Начальный раздел](README.md)
+* [Модуль 1. Введение в мобильное программирование](module1_introduction.md)
 
-## Раздел 1. Основы мобильного программирования <a id="section1_mobile_programming_start"></a>
+## Модуль 2. Особенности нативной разработки для Android
 
-* [Модуль 1. Введение в мобильное программирование](section1_mobile_programming_start/module1_introduction.md)
-* [Модуль 2. Особенности нативной разработки для Android](section1_mobile_programming_start/module2_native_android.md)
-* [Модуль 3. Особенности нативной разработки для iOS](section1_mobile_programming_start/module3_native_ios.md)
-* [Модуль 4. Особенности кроссплатформенной разработки](section1_mobile_programming_start/module4_crossplatform.md)
+* [Операционная система Andoid](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/operacionnaya-sistema-andoid.md)
+* [Языки программирования](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/yazyki-programmirovaniya.md)
+* [Android SDK](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/android-sdk.md)
+* [Android Studio](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/android-studio.md)
 
-## Раздел 2. Нативная разработка приложений для Android <a id="section2_native_programming_android"></a>
+## Модуль 3. Особенности нативной разработки для iOS
 
-* [Untitled](section2_native_programming_android/untitled.md)
+* [Untitled](modul-3.-osobennosti-nativnoi-razrabotki-dlya-ios/untitled.md)
 
-## Раздел 3. Нативная разработка приложений для iOS <a id="module3_native_programming_ios"></a>
+## Модуль 4. Особенности кроссплатформенной разработки
 
-* [Untitled](module3_native_programming_ios/untitled.md)
+* [Untitled](modul-4.-osobennosti-krossplatformennoi-razrabotki/untitled.md)
 
