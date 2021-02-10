@@ -3,6 +3,10 @@
 * [Начальный раздел](README.md)
 * [Модуль 1. Введение в мобильное программирование](module1_introduction.md)
 
+## Модуль 1. Введение в мобильное программирование
+
+* [Разработка мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/mobile_app_development.md)
+
 ## Модуль 2. Особенности нативной разработки для Android
 
 * [Операционная система Andoid](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/os_android.md)
