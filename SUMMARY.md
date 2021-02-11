@@ -2,33 +2,33 @@
 
 * [Начальный раздел](README.md)
 
-## Модуль 1. Введение в мобильное программирование
+## Модуль 1. Введение в мобильное программирование <a id="module1_introduction"></a>
 
-* [Разработка мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/1-statistics.md)
-* [Что такое мобильное программирование?](modul-1.-vvedenie-v-mobilnoe-programmirovanie/2-mobile_programming.md)
-* [Нативный и кроссплатформенный подходы и их различия](modul-1.-vvedenie-v-mobilnoe-programmirovanie/3-comparison_native_cross.md)
-* [Требования к квалификации разработчиков](modul-1.-vvedenie-v-mobilnoe-programmirovanie/4-developers_demands.md)
-* [Общие схемы разработки мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/5-common_stages_of_development.md)
+* [Разработка мобильных приложений](module1_introduction/1-statistics.md)
+* [Что такое мобильное программирование?](module1_introduction/2-mobile_programming.md)
+* [Нативный и кроссплатформенный подходы и их различия](module1_introduction/3-comparison_native_cross.md)
+* [Требования к квалификации разработчиков](module1_introduction/4-developers_demands.md)
+* [Общие схемы разработки мобильных приложений](module1_introduction/5-common_stages_of_development.md)
 
-## Модуль 2. Особенности нативной разработки для Android
+## Модуль 2. Особенности нативной разработки для Android <a id="module2_android"></a>
 
-* [Операционная система Andoid](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/os_android.md)
-* [Языки программирования](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/programming_languages_android.md)
-* [Android SDK](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/android_sdk.md)
-* [Android Studio](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/android_studio.md)
+* [Операционная система Andoid](module2_android/1-os_android.md)
+* [Языки программирования](module2_android/2-programming_languages_android.md)
+* [Android SDK](module2_android/3-android_sdk.md)
+* [Android Studio](module2_android/4-android_studio.md)
 
-## Модуль 3. Особенности нативной разработки для iOS
+## Модуль 3. Особенности нативной разработки для iOS <a id="module3_ios"></a>
 
-* [Операционная система iOS](modul-3.-osobennosti-nativnoi-razrabotki-dlya-ios/os_ios.md)
-* [Языки программирования](modul-3.-osobennosti-nativnoi-razrabotki-dlya-ios/ios_programming_languages.md)
-* [iOS SDK](modul-3.-osobennosti-nativnoi-razrabotki-dlya-ios/ios_sdk.md)
-* [xCode](modul-3.-osobennosti-nativnoi-razrabotki-dlya-ios/xcode.md)
+* [Операционная система iOS](module3_ios/1-os_ios.md)
+* [Языки программирования](module3_ios/2-ios_programming_languages.md)
+* [iOS SDK](module3_ios/3-ios_sdk.md)
+* [xCode](module3_ios/4-xcode.md)
 
-## Модуль 4. Особенности кроссплатформенной разработки
+## Модуль 4. Особенности кроссплатформенной разработки <a id="module4_cross"></a>
 
-* [React Native](modul-4.-osobennosti-krossplatformennoi-razrabotki/react_native.md)
-* [Flutter](modul-4.-osobennosti-krossplatformennoi-razrabotki/flutter.md)
-* [Xamarin](modul-4.-osobennosti-krossplatformennoi-razrabotki/xamarin.md)
-* [Ionic](modul-4.-osobennosti-krossplatformennoi-razrabotki/ionic.md)
-* [Unity](modul-4.-osobennosti-krossplatformennoi-razrabotki/unity.md)
+* [React Native](module4_cross/1-react_native.md)
+* [Flutter](module4_cross/2-flutter.md)
+* [Xamarin](module4_cross/3-xamarin.md)
+* [Ionic](module4_cross/4-ionic.md)
+* [Unity](module4_cross/5-unity.md)
 
