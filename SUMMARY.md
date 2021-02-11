@@ -4,11 +4,11 @@
 
 ## Модуль 1. Введение в мобильное программирование
 
-* [Разработка мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/statistics.md)
-* [Что такое мобильное программирование?](modul-1.-vvedenie-v-mobilnoe-programmirovanie/mobile_programming.md)
-* [Нативный и кроссплатформенный подходы и их различия](modul-1.-vvedenie-v-mobilnoe-programmirovanie/comparison_native_cross.md)
-* [Требования к квалификации разработчиков](modul-1.-vvedenie-v-mobilnoe-programmirovanie/developers_demands.md)
-* [Общие схемы разработки мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/obshie-skhemy-razrabotki-mobilnykh-prilozhenii.md)
+* [Разработка мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/1-statistics.md)
+* [Что такое мобильное программирование?](modul-1.-vvedenie-v-mobilnoe-programmirovanie/2-mobile_programming.md)
+* [Нативный и кроссплатформенный подходы и их различия](modul-1.-vvedenie-v-mobilnoe-programmirovanie/3-comparison_native_cross.md)
+* [Требования к квалификации разработчиков](modul-1.-vvedenie-v-mobilnoe-programmirovanie/4-developers_demands.md)
+* [Общие схемы разработки мобильных приложений](modul-1.-vvedenie-v-mobilnoe-programmirovanie/5-common_stages_of_development.md)
 
 ## Модуль 2. Особенности нативной разработки для Android
 
