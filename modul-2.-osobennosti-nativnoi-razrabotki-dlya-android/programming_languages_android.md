@@ -44,6 +44,8 @@ class Box {
 }
 ```
 
+{% embed url="https://stepik.org/lesson/12755/step/14?unit=3103" %}
+
 ### Kotlin
 
 Kotlin \(Ко́тлин\) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine. Это означает, что:
