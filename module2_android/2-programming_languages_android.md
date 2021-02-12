@@ -1,6 +1,6 @@
 # Языки программирования
 
-### Java
+## Java
 
 Java — строго типизированный объектно-ориентированный язык программирования общего назначения. Это означает, что:
 
@@ -29,7 +29,7 @@ class Box {
     int width; // ширина коробки
     int height; // высота коробки
     int depth; // глубина коробки
-	
+
     // Конструктор
     Box(int a, int b) {
         width = a;
@@ -39,14 +39,14 @@ class Box {
 
     // вычисляем объём коробки
     int getVolume() {
-    	return width * height * depth;
+        return width * height * depth;
     }
 }
 ```
 
-{% embed url="https://stepik.org/lesson/12755/step/14?unit=3103" %}
+{% embed url="https://stepik.org/lesson/12755/step/14?unit=3103" caption="" %}
 
-### Kotlin
+## Kotlin
 
 Kotlin \(Ко́тлин\) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine. Это означает, что:
 
@@ -71,7 +71,5 @@ fun sayHello(maybe: String?, neverNull: Int) {
 }
 ```
 
-{% embed url="https://stepik.org/lesson/46345/step/1?unit=24391" %}
-
-
+{% embed url="https://stepik.org/lesson/46345/step/1?unit=24391" caption="" %}
 
