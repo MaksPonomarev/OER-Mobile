@@ -27,7 +27,9 @@
 
 ## Android Native
 
-* [Раздел 2. Создание пользовательского интерфейса нативного прилоожения Android](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android.md)
+* [Раздел 2. Базовый пользовательский интерфейс нативного прилоожения Android](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/README.md)
+  * [Модуль 1. View](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/modul-1.-view.md)
+  * [Модуль 2. ViewGroup](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/modul-2.-viewgroup.md)
 * [Раздел 3. Базовая разработка нативных приложений на Android](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/README.md)
   * [Модуль 1. Android Studio](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-1.-android-studio.md)
   * [Модуль 2. Activity](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-2.-activity.md)
@@ -44,7 +46,9 @@
   * [Модуль 13. Intents](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-13.-intents.md)
   * [Модуль 14. Context](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-14.-context.md)
   * [Модуль 15. Работа с API](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-15.-rabota-s-api.md)
-* [Раздел 4. Продвинутая разработка нативных приложений на Android](android-native/razdel-4.-prodvinutaya-razrabotka-nativnykh-prilozhenii-na-android.md)
+* [Раздел 4. Продвинутый пользовательский интерфейс нативного приложения Android](android-native/razdel-4.-prodvinutyi-polzovatelskii-interfeis-nativnogo-prilozheniya-android.md)
+* [Раздел 5. Продвинутая разработка нативных приложений на Android](android-native/razdel-4.-prodvinutaya-razrabotka-nativnykh-prilozhenii-na-android/README.md)
+  * [Untitled](android-native/razdel-4.-prodvinutaya-razrabotka-nativnykh-prilozhenii-na-android/untitled.md)
 
 ## iOS Native <a id="ios"></a>
 
