@@ -8,8 +8,6 @@
   * [Требования к квалификации разработчиков](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/4-developers_demands.md)
   * [Общие схемы разработки мобильных приложений](modul-2.-osobennosti-nativnoi-razrabotki-dlya-android/5-common_stages_of_development.md)
 
-## Модуль 1. Введение в мобильное программирование <a id="module1_introduction"></a>
-
 ## Модуль 2. Особенности нативной разработки для Android <a id="module2_android"></a>
 
 * [Операционная система Andoid](module2_android/1-os_android.md)
