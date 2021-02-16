@@ -27,13 +27,18 @@
 
 ## Android Native
 
+* [Раздел 2. Android Studio](android-native/razdel-2.-android-studio/README.md)
+  * [Модуль 1. Android SDK](android-native/razdel-2.-android-studio/modul-1.-android-sdk.md)
+  * [Модуль 2. CPU Profiler](android-native/razdel-2.-android-studio/modul-2.-cpu-profiler.md)
+  * [Модуль 3. Debugger](android-native/razdel-2.-android-studio/modul-3.-debugger.md)
+  * [Модуль 4. Форматы файлов](android-native/razdel-2.-android-studio/modul-4.-formaty-failov.md)
+  * [Модуль 5. Декларация приложения \(app manifest\)](android-native/razdel-2.-android-studio/modul-5.-deklaraciya-prilozheniya-app-manifest.md)
 * [Раздел 2. Базовый пользовательский интерфейс нативного прилоожения Android](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/README.md)
   * [Модуль 1. View](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/modul-1.-view.md)
   * [Модуль 2. ViewGroup](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/modul-2.-viewgroup.md)
   * [Модуль 3. Ресурсы](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/modul-3.-resursy.md)
   * [Модуль 4. Material Design](android-native/razdel-2.-sozdanie-polzovatelskogo-interfeisa-nativnogo-priloozheniya-android/modul-4.-material-design.md)
 * [Раздел 3. Базовая разработка нативных приложений на Android](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/README.md)
-  * [Модуль 1. Android Studio](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-1.-android-studio.md)
   * [Модуль 2. Activity](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-2.-activity.md)
   * [Модуль 3. Фрагменты](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-3.-fragmenty.md)
   * [Модуль 4. Android Studio Debugger](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-4.-android-studio-debugger.md)
