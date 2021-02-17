@@ -27,12 +27,12 @@
 
 ## Android Native
 
-* [Раздел 1. Android Studio](android-native/razdel-2.-android-studio/README.md)
-  * [Модуль 1. Android SDK](android-native/razdel-2.-android-studio/modul-1.-android-sdk.md)
-  * [Модуль 2. CPU Profiler](android-native/razdel-2.-android-studio/modul-2.-cpu-profiler.md)
-  * [Модуль 3. Debugger](android-native/razdel-2.-android-studio/modul-3.-debugger.md)
-  * [Модуль 4. Форматы файлов](android-native/razdel-2.-android-studio/modul-4.-formaty-failov.md)
-  * [Модуль 5. Декларация приложения \(app manifest\)](android-native/razdel-2.-android-studio/modul-5.-deklaraciya-prilozheniya-app-manifest.md)
+* [Раздел 1. Android Studio](android-native/razdel-1.-android-studio/README.md)
+  * [Модуль 1. Android SDK](android-native/razdel-1.-android-studio/modul-1.-android-sdk.md)
+  * [Модуль 2. CPU Profiler](android-native/razdel-1.-android-studio/modul-2.-cpu-profiler.md)
+  * [Модуль 3. Debugger](android-native/razdel-1.-android-studio/modul-3.-debugger.md)
+  * [Модуль 4. Форматы файлов](android-native/razdel-1.-android-studio/modul-4.-formaty-failov.md)
+  * [Модуль 5. Декларация приложения \(app manifest\)](android-native/razdel-1.-android-studio/modul-5.-deklaraciya-prilozheniya-app-manifest.md)
 * [Раздел 2. Компоненты приложения](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/README.md)
   * [Модуль 1. Intent](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-1.-intent.md)
   * [Модуль 2. Activity](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-2.-activity.md)
