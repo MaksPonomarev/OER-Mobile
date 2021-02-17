@@ -1,2 +1,2 @@
-# Раздел 2. Android Studio
+# Раздел 1. Android Studio
 
