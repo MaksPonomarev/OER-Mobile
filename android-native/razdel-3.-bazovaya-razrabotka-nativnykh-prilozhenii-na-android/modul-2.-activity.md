@@ -1,6 +1,6 @@
 # Модуль 1. Activity
 
-
+Активити является входной точкой для взаимодействия с пользователем. Она представляет собой один экран с пользовательским интерфейсом. Например, приложение для электронной почты может иметь одну активити, которая показывает список новых электронных писем, другое активити составляет электронное письмо, и третье активити читает электронные письма.
 
 An activity is the entry point for interacting with the user. It represents a single screen with a user interface. For example, an email app might have one activity that shows a list of new emails, another activity to compose an email, and another activity for reading emails. Although the activities work together to form a cohesive user experience in the email app, each one is independent of the others. As such, a different app can start any one of these activities if the email app allows it. For example, a camera app can start the activity in the email app that composes new mail to allow the user to share a picture. An activity facilitates the following key interactions between system and app:
 
