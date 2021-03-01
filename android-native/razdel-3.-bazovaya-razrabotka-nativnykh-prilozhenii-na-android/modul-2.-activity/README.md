@@ -9,8 +9,3 @@
 
 Активити объявляются как подкласс класса Activity.
 
-```java
-public class MainActivity extends Activity {
-}
-```
-
