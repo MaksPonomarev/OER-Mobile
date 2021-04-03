@@ -13,3 +13,7 @@
 * Знание сетевых протоколов.
 * **Знание Android SDK.**
 
+{% embed url="https://learningapps.org/4826974" %}
+
+\*\*\*\*
+
