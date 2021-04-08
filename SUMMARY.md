@@ -28,6 +28,11 @@
 ## Android Native
 
 * [Раздел 0. Android Studio](android-native/razdel-2.-android-studio/README.md)
+  * [Модуль 0. Обзор IDE](android-native/razdel-2.-android-studio/modul-0.-obzor-ide/README.md)
+    * [УФ0. История появления Android Studio](android-native/razdel-2.-android-studio/modul-0.-obzor-ide/uf0.-istoriya-poyavleniya-android-studio.md)
+    * [УФ1. Обзор возможностей Android Studio](android-native/razdel-2.-android-studio/modul-0.-obzor-ide/uf1.-obzor-vozmozhnostei-android-studio.md)
+    * [УФ2. Установка Android Studio](android-native/razdel-2.-android-studio/modul-0.-obzor-ide/uf2.-ustanovka-android-studio.md)
+    * [УФ3. Настройка Android Studio](android-native/razdel-2.-android-studio/modul-0.-obzor-ide/uf3.-nastroika-android-studio.md)
   * [Модуль 1. Android SDK](android-native/razdel-2.-android-studio/modul-1.-android-sdk.md)
   * [Модуль 2. CPU Profiler](android-native/razdel-2.-android-studio/modul-2.-cpu-profiler.md)
   * [Модуль 3. Debugger](android-native/razdel-2.-android-studio/modul-3.-debugger.md)
