@@ -1,2 +1,2 @@
-# Раздел 19. Connectivity
+# Модуль 20. Connectivity
 
