@@ -33,7 +33,6 @@
   * [УФ 3. CPU Profiler](android-native/razdel-2.-android-studio/modul-2.-cpu-profiler.md)
   * [УФ 4. Debugger](android-native/razdel-2.-android-studio/modul-3.-debugger.md)
   * [УФ 5. Форматы файлов](android-native/razdel-2.-android-studio/modul-4.-formaty-failov.md)
-  * [Контроль модуля 1](android-native/razdel-2.-android-studio/kontrol-modulya-1.md)
 * [Модуль 2. Создание первого приложения](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/README.md)
   * [Модуль 1. Декларация приложения \(app manifest\)](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/modul-5.-deklaraciya-prilozheniya-app-manifest.md)
   * [Модуль 2 Создание проекта](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/untitled-8-1.md)
