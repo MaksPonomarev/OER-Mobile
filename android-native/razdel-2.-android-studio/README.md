@@ -18,5 +18,5 @@
 
 {% page-ref page="modul-4.-formaty-failov.md" %}
 
-{% page-ref page="../razdel-0.-sozdanie-pervogo-prilozheniya/modul-5.-deklaraciya-prilozheniya-app-manifest.md" %}
+{% page-ref page="../razdel-0.-sozdanie-pervogo-prilozheniya/modul-2.-deklaraciya-prilozheniya-app-manifest.md" %}
 
