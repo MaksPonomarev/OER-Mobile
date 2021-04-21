@@ -1,26 +1,51 @@
 # УФ3. Программирование
 
-Follow these steps to add a method to the `MainActivity` class that's called when the **Send** button is tapped:
+В предыдущем фрагменте был создан простой пользовательский интерфейс с текстовым блоком для ввода данных и кнопкой для отправки введенных данных. В данном фрагменте вы научитесь добавлять обработчики элементов, добавлять для них функциональность.
 
-1. In the file **app &gt; java &gt; com.example.myfirstapp &gt; MainActivity**, add the following `sendMessage()` method stub:[KOTLIN](https://developer.android.com/training/basics/firstapp/starting-activity#kotlin)[JAVA](https://developer.android.com/training/basics/firstapp/starting-activity#java)
+### Функция "Отправить сообщение"
 
-   ```text
-   class MainActivity : AppCompatActivity() {
-       override fun onCreate(savedInstanceState: Bundle?) {
-           super.onCreate(savedInstanceState)
-           setContentView(R.layout.activity_main)
-       }
+1. В файле **app &gt; java &gt; com.example.myfirstapp &gt; MainActivity**, создайте функцию `sendMessage()`
 
-       /** Called when the user taps the Send button */
-       fun sendMessage(view: View) {
-           // Do something in response to button
-       }
-   }
-   ```
+{% tabs %}
+{% tab title="First Tab" %}
+```kotlin
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
 
-   You might see an error because Android Studio cannot resolve the `View` class used as the method argument. To clear the error, click the `View` declaration, place your cursor on it, and then press Alt+Enter, or Option+Enter on a Mac, to perform a Quick Fix. If a menu appears, select **Import class**.
+    /** Функция вызывается, когда пользователь жмет на кнопку */
+    fun sendMessage(view: View) {
+        // Сделать что-то
+    }
+}
+```
+{% endtab %}
 
-2. Return to the **activity\_main.xml** file to call the method from the button:
+{% tab title="Second Tab" %}
+```java
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    /** Функция вызывается, когда пользователь жмет на кнопку */
+    public void sendMessage(View view) {
+        // Сделать что-то
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Возможно вы увидите ошибку, потому что Androd Studio не может понять, что такое класс View, который используется как аргумент функции. Для того, чтобы исправить ошибку, кликните 
+
+You might see an error because Android Studio cannot resolve the `View` class used as the method argument. To clear the error, click the `View` declaration, place your cursor on it, and then press Alt+Enter, or Option+Enter on a Mac, to perform a Quick Fix. If a menu appears, select **Import class**.
+
+1. Return to the **activity\_main.xml** file to call the method from the button:
 
    1. Select the button in the Layout Editor.
    2. In the **Attributes** window, locate the **onClick** property and select **sendMessage \[MainActivity\]** from its drop-down list.
@@ -33,7 +58,7 @@ Follow these steps to add a method to the `MainActivity` class that's called whe
    * A void or, in Kotlin, an implicit [unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) return value.
    * A [`View`](https://developer.android.com/reference/android/view/View) as the only parameter. This is the [`View`](https://developer.android.com/reference/android/view/View) object you clicked at the end of Step 1.
 
-3. Next, fill in this method to read the contents of the text field and deliver that text to another activity.
+2. Next, fill in this method to read the contents of the text field and deliver that text to another activity.
 
 ### Build an intent <a id="BuildIntent"></a>
 
