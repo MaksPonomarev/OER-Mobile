@@ -168,7 +168,9 @@ Android Studio автоматически сделает три вещи:
 
 ### Верстка второго Activity <a id="TextView"></a>
 
-![The text view centered at the top of the layout.](https://developer.android.com/training/basics/firstapp/images/constraint-textview_2x.png)**Figure 1.** The text view centered at the top of the layout.
+Задание: сделайте текстовый блок на втором макете как на скриншоте ниже
+
+![The text view centered at the top of the layout.](https://developer.android.com/training/basics/firstapp/images/constraint-textview_2x.png)
 
 The new activity includes a blank layout file. Follow these steps to add a text view to where the message appears:
 
