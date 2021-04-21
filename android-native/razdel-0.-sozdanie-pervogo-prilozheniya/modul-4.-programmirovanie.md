@@ -7,7 +7,7 @@
 1. В файле **app &gt; java &gt; com.example.myfirstapp &gt; MainActivity**, создайте функцию `sendMessage()`
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Kotlin" %}
 ```kotlin
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Java" %}
 ```java
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -41,31 +41,31 @@ public class MainActivity extends AppCompatActivity {
 {% endtab %}
 {% endtabs %}
 
-Возможно вы увидите ошибку, потому что Androd Studio не может понять, что такое класс View, который используется как аргумент функции. Для того, чтобы исправить ошибку, кликните 
+Возможно вы увидите ошибку, потому что Androd Studio не может понять, что такое класс `View`, который используется как аргумент функции. Для того, чтобы исправить ошибку, кликните по `View` и и нажмите сочетание клавиш Alt+Enter - вам будут предложены пути исправления ошибки. Выберите первый вариант **Import.** Таким образом вы импортируете класс View.
 
-You might see an error because Android Studio cannot resolve the `View` class used as the method argument. To clear the error, click the `View` declaration, place your cursor on it, and then press Alt+Enter, or Option+Enter on a Mac, to perform a Quick Fix. If a menu appears, select **Import class**.
+1. Вернитесь к файлу **activity\_main.xml** для вызова метода, нажатием на кнопку:
 
-1. Return to the **activity\_main.xml** file to call the method from the button:
+   1. Выберите кнопку в редакторе.
+   2. В окне **Attributes**, найдите атрибут **onClick** и выберите **sendMessage \[MainActivity\]** из выпадающего списка.
 
-   1. Select the button in the Layout Editor.
-   2. In the **Attributes** window, locate the **onClick** property and select **sendMessage \[MainActivity\]** from its drop-down list.
+   Теперь при нажатии на кнопку, система вызовет метод `sendMessage()`.
 
-   Now when the button is tapped, the system calls the `sendMessage()` method.
+   Мы смогли привязать наш метод к атрибуту **onClick** потому, что он обладал следующими свойствами:
 
-   Take note of the details in this method. They're required for the system to recognize the method as compatible with the [`android:onClick`](https://developer.android.com/reference/android/view/View#attr_android:onClick) attribute. Specifically, the method has the following characteristics:
+   * публичный модификатор.
+   * используется метод, или в случае с Kotlin функция, которая возвращает значение с типом Unit.
+   * Единственным аргументом является `View` - тот `View`, которому вы назначили выполнение данного метода.
 
-   * Public access.
-   * A void or, in Kotlin, an implicit [unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) return value.
-   * A [`View`](https://developer.android.com/reference/android/view/View) as the only parameter. This is the [`View`](https://developer.android.com/reference/android/view/View) object you clicked at the end of Step 1.
+2. Далее напишем код, чтобы наше приложение могло прочитать содержание текстового блока и передать это содержание другому `Activity`.
 
-2. Next, fill in this method to read the contents of the text field and deliver that text to another activity.
+### Создание Intent <a id="BuildIntent"></a>
 
-### Build an intent <a id="BuildIntent"></a>
+`Intent` переводится как **намерение,** в данном случае намерение передать данные между двумя `Activity`. Намерения используются для большого количества задач.
 
-An [`Intent`](https://developer.android.com/reference/android/content/Intent) is an object that provides runtime binding between separate components, such as two activities. The [`Intent`](https://developer.android.com/reference/android/content/Intent) represents an app’s intent to do something. You can use intents for a wide variety of tasks, but in this lesson, your intent starts another activity.
+В `MainActivity`, в самом верху кода, перед объявлением класс добавьте константу`EXTRA_MESSAGE` и код для функции `sendMessage()`.
 
-In `MainActivity`, add the `EXTRA_MESSAGE` constant and the `sendMessage()` code, as shown:[KOTLIN](https://developer.android.com/training/basics/firstapp/starting-activity#kotlin)[JAVA](https://developer.android.com/training/basics/firstapp/starting-activity#java)
-
+{% tabs %}
+{% tab title="Kotlin" %}
 ```kotlin
 const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
 
@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    /** Called when the user taps the Send button */
+    /** Функция вызывается, когда пользователь жмет на кнопку */
     fun sendMessage(view: View) {
         val editText = findViewById<EditText>(R.id.editText)
         val message = editText.text.toString()
@@ -86,51 +86,87 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+{% endtab %}
 
-Expect Android Studio to encounter **Cannot resolve symbol** errors again. To clear the errors, press Alt+Enter, or Option+Return on a Mac. Your should end up with the following imports:[KOTLIN](https://developer.android.com/training/basics/firstapp/starting-activity#kotlin)[JAVA](https://developer.android.com/training/basics/firstapp/starting-activity#java)
+{% tab title="Java" %}
+```java
+public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
 
-```text
+    /** CФункция вызывается, когда пользователь жмет на кнопку */
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        EditText editText = (EditText) findViewById(R.id.editText);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Скорее всего Android Studio покажет очень много ошибок, для их используйте сочетание клавиш Alt+Enter. У вас должны быть представлены следующие импорты.
+
+{% tabs %}
+{% tab title="Kotlin" %}
+```kotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 ```
+{% endtab %}
 
-An error still remains for `DisplayMessageActivity`, but that's okay. You fix it in the next section.
+{% tab title="Java" %}
+```java
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+```
+{% endtab %}
+{% endtabs %}
 
-Here's what's going on in `sendMessage()`:
+У нас все еще остается ошибка для `DisplayMessageActivity`, но её мы исправим позже.
 
-* The [`Intent`](https://developer.android.com/reference/android/content/Intent) constructor takes two parameters, a [`Context`](https://developer.android.com/reference/android/content/Context) and a [`Class`](https://developer.android.com/reference/java/lang/Class).
+Написанный код в функции  `sendMessage()` означает следующее:
 
-  The [`Context`](https://developer.android.com/reference/android/content/Context) parameter is used first because the [`Activity`](https://developer.android.com/reference/android/app/Activity) class is a subclass of [`Context`](https://developer.android.com/reference/android/content/Context).
+* Переменная `intent` объявлена как переменная с типом `Intent`, который обязательно принимает два значения `Context` и `Class`.
 
-  The [`Class`](https://developer.android.com/reference/java/lang/Class) parameter of the app component, to which the system delivers the [`Intent`](https://developer.android.com/reference/android/content/Intent)`,` is, in this case, the activity to start.
+  Параметр `Context` используется первым и имеет значение `this` . Параметр имеет такое значение, потому что класс `Activity` является подклассом класс `Context`, а значит мы ссылаемся на `MainActivity` как на `Context`.
 
-* The [`putExtra()`](https://developer.android.com/reference/android/content/Intent#putExtra%28java.lang.String,%20java.lang.String%29) method adds the value of `EditText` to the intent. An `Intent` can carry data types as key-value pairs called _extras_.
+  Параметр `Class` означает класс, на который нацелено намерение.
 
-  Your key is a public constant `EXTRA_MESSAGE` because the next activity uses the key to retrieve the text value. It's a good practice to define keys for intent extras with your app's package name as a prefix. This ensures that the keys are unique, in case your app interacts with other apps.
+* Метод `putExtra()` добавляет значение текстового блока `EditText` к намерению. `Intent` может передавать значения в виде "ключ-значение", такие пары называют _extras_.
 
-* The [`startActivity()`](https://developer.android.com/reference/android/app/Activity#startActivity%28android.content.Intent%29) method starts an instance of the `DisplayMessageActivity` that's specified by the [`Intent`](https://developer.android.com/reference/android/content/Intent). Next, you need to create that class.
+  Ключом является публичная константа `EXTRA_MESSAGE`. Хорошей практикой является определение ключей _extras_ для намерений таки образом - это обеспечивает уникальность ключа в случае, если ваше приложение взаимодействует с другими приложениями.
 
-**Note:** The Navigation Architecture Component allows you to use the Navigation Editor to associate one activity with another. Once the relationship is made, you can use the API to start the second activity when the user triggers the associated action, such as when the user clicks a button. To learn more, see [Navigation](https://developer.android.com/topic/libraries/architecture/navigation).
+* Метод `startActivity()` запускает экземпляр класса `DisplayMessageActivity` который указан в переменной `intent`. Далее мы создадим этот класс
 
-### Create the second activity <a id="CreateActivity"></a>
+### Создание второго Activity <a id="CreateActivity"></a>
 
-To create the second activity, follow these steps:
+Для создания второго Activity:
 
-1. In the **Project** window, right-click the **app** folder and select **New &gt; Activity &gt; Empty Activity**.
-2. In the **Configure Activity** window, enter "DisplayMessageActivity" for **Activity Name**. Leave all other properties set to their defaults and click **Finish**.
+1. В окне **Project**, сделайте клик правой кнопкой мыши по папке **app** и выберите **New &gt; Activity &gt; Empty Activity**.
+2. В окне настройки Activity \(**Configure Activity** \), введите "DisplayMessageActivity" для параметра **Activity Name**. Оставьте другие параметры по-умолчанию и кликните **Finish**.
 
-Android Studio automatically does three things:
+Android Studio автоматически сделает три вещи:
 
-* Creates the `DisplayMessageActivity` file.
-* Creates the layout file `activity_display_message.xml`, which corresponds with the `DisplayMessageActivity` file.
-* Adds the required [`<activity>`](https://developer.android.com/guide/topics/manifest/activity-element) element in `AndroidManifest.xml`.
+* Создаст файл `DisplayMessageActivity`.
+* Создаст файл макета `activity_display_message.xml`, который связан с файлом `DisplayMessageActivity`.
+* Добавит необходимый элемент `<activity>` в `AndroidManifest.xml`.
 
-If you run the app and tap the button on the first activity, the second activity starts but is empty. This is because the second activity uses the empty layout provided by the template.
+Если вы запустите приложение, то при нажатии на кнопку вы перейдете на другое Активити. Однако дополним приложение таким образом, чтобы при вводе текста и нажатии на кнопку текст выводился во втором окне.
 
-### Add a text view <a id="TextView"></a>
+### Верстка второго Activity <a id="TextView"></a>
 
 ![The text view centered at the top of the layout.](https://developer.android.com/training/basics/firstapp/images/constraint-textview_2x.png)**Figure 1.** The text view centered at the top of the layout.
 
