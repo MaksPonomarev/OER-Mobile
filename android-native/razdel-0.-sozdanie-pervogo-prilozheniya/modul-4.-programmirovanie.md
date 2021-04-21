@@ -139,6 +139,8 @@ import android.widget.EditText;
 
 Написанный код в функции  `sendMessage()` означает следующее:
 
+* в переменной `editMessage` вызываем функцию `findViewById` с аргументов R.id.editText. У каждого объекта `View` есть уникальный ID, мы используем функцию `findViewById` чтобы найти необходимый элемент через класс `R`, в котором хранятся эти значения.
+* в переменной message хранится значение текстового блока, которое мы конвертировали в строку при помощи функции `toString()`.
 * Переменная `intent` объявлена как переменная с типом `Intent`, который обязательно принимает два значения `Context` и `Class`.
 
   Параметр `Context` используется первым и имеет значение `this` . Параметр имеет такое значение, потому что класс `Activity` является подклассом класс `Context`, а значит мы ссылаемся на `MainActivity` как на `Context`.
@@ -168,48 +170,79 @@ Android Studio автоматически сделает три вещи:
 
 ### Верстка второго Activity <a id="TextView"></a>
 
-Задание: сделайте текстовый блок на втором макете как на скриншоте ниже
+Задание: сделайте текстовый блок на втором макете как на скриншоте ниже. Тактовый блок должен иметь constraints справа, слева и сверху, находится в верхней части экрана.
 
 ![The text view centered at the top of the layout.](https://developer.android.com/training/basics/firstapp/images/constraint-textview_2x.png)
-
-The new activity includes a blank layout file. Follow these steps to add a text view to where the message appears:
-
-1. Open the file **app &gt; res &gt; layout &gt; activity\_display\_message.xml**.
-2. Click **Enable Autoconnection to Parent** ![](https://developer.android.com/studio/images/buttons/layout-editor-autoconnect-on.png) in the toolbar. This enables Autoconnect. See figure 1.
-3. In the **Palette** panel, click **Text**, drag a **TextView** into the layout, and drop it near the top-center of the layout so that it snaps to the vertical line that appears. Autoconnect adds left and right constraints in order to place the view in the horizontal center.
-4. Create one more constraint from the top of the text view to the top of the layout, so that it appears as shown in figure 1.
-
-Optionally, you can make some adjustments to the text style if you expand **textAppearance** in the **Common Attributes** panel of the **Attributes** window, and change attributes such as **textSize** and **textColor**.
 
 ### Display the message <a id="DisplayMessage"></a>
 
 In this step, you modify the second activity to display the message that was passed by the first activity.
 
-1. In `DisplayMessageActivity`, add the following code to the `onCreate()` method:[KOTLIN](https://developer.android.com/training/basics/firstapp/starting-activity#kotlin)[JAVA](https://developer.android.com/training/basics/firstapp/starting-activity#java)
+1. В `DisplayMessageActivity`, добавьте следующий код в метод `onCreate()`
 
-   ```text
-   override fun onCreate(savedInstanceState: Bundle?) {
-       super.onCreate(savedInstanceState)
-       setContentView(R.layout.activity_display_message)
+{% tabs %}
+{% tab title="Kotlin" %}
+```kotlin
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_display_message)
     
-       // Get the Intent that started this activity and extract the string
-       val message = intent.getStringExtra(EXTRA_MESSAGE)
+    // Get the Intent that started this activity and extract the string
+    val message = intent.getStringExtra(EXTRA_MESSAGE)
 
-       // Capture the layout's TextView and set the string as its text
-       val textView = findViewById<TextView>(R.id.textView).apply {
-           text = message
-       }
-   }
-   ```
+    // Capture the layout's TextView and set the string as its text
+    val textView = findViewById<TextView>(R.id.textView).apply {
+        text = message
+    }
+}
+```
+{% endtab %}
 
-2. Press Alt+Enter, or Option+Return on a Mac, to import these other needed classes:[KOTLIN](https://developer.android.com/training/basics/firstapp/starting-activity#kotlin)[JAVA](https://developer.android.com/training/basics/firstapp/starting-activity#java)
+{% tab title="Java" %}
+```java
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_display_message);
+    
+    // Get the Intent that started this activity and extract the string
+    Intent intent = getIntent();
+    String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-   ```text
-   import androidx.appcompat.app.AppCompatActivity
-   import android.content.Intent
-   import android.os.Bundle
-   import android.widget.TextView
-   ```
+    // Capture the layout's TextView and set the string as its text
+    TextView textView = findViewById(R.id.textView);
+    textView.setText(message);
+}
+```
+{% endtab %}
+{% endtabs %}
+
+2. Кликните Alt+Enter, для того, чтобы импортировать необходимые классы и убрать ошибки.
+
+{% tabs %}
+{% tab title="Kotlin" %}
+```kotlin
+import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
+import android.os.Bundle
+import android.widget.TextView
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TextView;
+```
+{% endtab %}
+{% endtabs %}
+
+Добавленный код означает следующее:
+
+1. Переменная `message` принимает сообщение, которое было отправлено намерением в прошлом `Activity`.
+2. В переменной `textView` - была найдено по ID текстовый блок и в него записано значение переменной `message`
 
 ### Add upward navigation <a id="Up"></a>
 
