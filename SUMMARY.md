@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Начальный раздел](README.md)
+* [Открытый образовательный ресурс "Мобильное программирование"](README.md)
 * [Раздел 0. Введение в разработку мобильных приложений](razdel-1.-vvedenie-v-razrabotku-mobilnykh-prilozhenii-1/README.md)
   * [Модуль 1. Введение в мобильную разработку](razdel-1.-vvedenie-v-razrabotku-mobilnykh-prilozhenii-1/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/README.md)
     * [Разработка мобильных приложений](razdel-1.-vvedenie-v-razrabotku-mobilnykh-prilozhenii-1/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/1-statistics.md)
