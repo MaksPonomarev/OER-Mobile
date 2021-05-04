@@ -4,7 +4,7 @@
 
 ## Раздел 0. Введение в разработку мобильных приложений
 
-* [Модуль 1. Введение в мобильную разработку](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/README.md)
+* [Модуль 1. Общая информация о мобильной разработке](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/README.md)
   * [Разработка мобильных приложений](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/1-statistics.md)
   * [Что такое мобильное программирование?](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/2-mobile_programming.md)
   * [Нативный и кроссплатформенный подходы и их различия](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-1.-osobennosti-nativnoi-razrabotki-dlya-android/3-comparison_native_cross.md)
