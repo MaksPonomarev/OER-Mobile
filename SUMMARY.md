@@ -56,7 +56,7 @@
   * [УФ5. Использование ресурсов](android-native/razdel-3.-polzovatelskii-interfeis/modul-1.-ispolzovanie-resursov.md)
   * [УФ6. UI Layouts](android-native/razdel-3.-polzovatelskii-interfeis/modul-4.-ui-layouts.md)
   * [Контроль Модуля](android-native/razdel-3.-polzovatelskii-interfeis/kontrol-modulya-0.md)
-* [Модуль 4. Создание первого приложения](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/README.md)
+* [Модуль 4. Создание калькулятора](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/README.md)
   * [УФ1. Создание проекта](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/untitled-8-1.md)
   * [УФ2. Верстка](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/modul-3.-verstka.md)
   * [УФ3. Программирование](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/modul-4.-programmirovanie.md)
