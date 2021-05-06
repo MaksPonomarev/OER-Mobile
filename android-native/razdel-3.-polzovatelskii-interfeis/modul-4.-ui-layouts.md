@@ -25,11 +25,7 @@
 
 Ознакомится с LinaerLayout можно в видео ниже.
 
-{% embed url="https://youtu.be/gm0gCY2qA54?t=85" %}
-
-
-
-
+{% embed url="https://youtu.be/gm0gCY2qA54?t=88" %}
 
 ### Контроль
 
