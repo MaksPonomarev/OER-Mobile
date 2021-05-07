@@ -14,11 +14,11 @@ setContentView(R.layout.activity_main);
 
 В данном коде устанавливается интерфейс Activity. Для этого через класс R мы обращаемся к папке layout и выбираем макет activity\_main.
 
-### Строки
+## Строки
 
 Одним из важнейших ресурсов являются строки. Они используются для названия приложения, текста кнопок и т.д.
 
-Файл строк находится в папке `res/values/strings.xml`. 
+Файл строк находится в папке `res/values/strings.xml`.
 
 Строка создается следующим образом:
 
@@ -46,7 +46,7 @@ setContentView(R.layout.activity_main);
 android:hint="@string/hint"
 ```
 
-### Цвета
+## Цвета
 
 Также как и со строками можно назначать цвета. В файле `res/values/colors.xml` назначаются цвета.
 
@@ -85,7 +85,5 @@ android:hint="@string/hint"
 android:textColor="@color/colorBlack"
 ```
 
-### Контроль
-
-
+## Контроль
 

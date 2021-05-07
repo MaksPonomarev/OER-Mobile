@@ -147,5 +147,3 @@ class SimpleCalculatorActivity : AppCompatActivity() {
 }
 ```
 
-
-

@@ -1,15 +1,15 @@
 # УФ2. Создание второго Activity
 
-### Добавление новой Activity
+## Добавление новой Activity
 
 Android-приложение состоит из множества Activity, поэтому нужно научится создавать их и связывать друг с другом.
 
-Для того, чтобы создать Acitivty кликните правой кнопкой мыши по папке app и выберите   
+Для того, чтобы создать Acitivty кликните правой кнопкой мыши по папке app и выберите  
 **New-&gt;Activity-&gt;Empty Activity**.
 
 ![&#x420;&#x438;&#x441;. 1. &#x421;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x43D;&#x43E;&#x432;&#x43E;&#x433;&#x43E; Activity](../../.gitbook/assets/image%20%2814%29.png)
 
-Нас будут интересовать только два параметра при настройка: **Activity Name** и **Source Language**. Предположим, мы хотим создать `Activity`, которое будет выводить сообщение, которое мы ввели в предыдущем `Activity`, поэтому дадим параметру **Activity Name** значение **MessageActivity**. Параметр **Source Language** определяет язык программирования `Activity`,  рекомендуется выбрать Kotlin.
+Нас будут интересовать только два параметра при настройка: **Activity Name** и **Source Language**. Предположим, мы хотим создать `Activity`, которое будет выводить сообщение, которое мы ввели в предыдущем `Activity`, поэтому дадим параметру **Activity Name** значение **MessageActivity**. Параметр **Source Language** определяет язык программирования `Activity`, рекомендуется выбрать Kotlin.
 
 ![&#x420;&#x438;&#x441;. 2. &#x421;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; MessageActivity](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -34,13 +34,13 @@ Android-приложение состоит из множества Activity, п
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
- 
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 ![&#x420;&#x438;&#x441;.3. &#x41C;&#x430;&#x43A;&#x435;&#x442; MessageActivity](../../.gitbook/assets/image%20%2813%29.png)
 
-### Контроль
+## Контроль
 
 Ответьте на следующие вопросы
 

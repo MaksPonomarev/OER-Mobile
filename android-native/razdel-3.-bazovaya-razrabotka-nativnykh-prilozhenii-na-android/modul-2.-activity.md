@@ -1,6 +1,6 @@
 # УФ 1. Activity
 
-### Activity
+## Activity
 
 Активити является входной точкой для взаимодействия с пользователем. Она представляет собой один экран с пользовательским интерфейсом. Например, email приложение может иметь одну активити, которая показывает список новых email, другое активити составляет email, и третье активити читает email. Несмотря на то , что Активити работают вместе для создания более полного пользовательского опыта в email приложении, каждое Активити независимо друг от друга. Поэтому другое приложение может запустить одно из этих Активити, если приложение электронных писем позволяет это. Например, приложение для управления камерой может запустить Активити email приложения, которое будет содержать новый email, чтобы позволить пользователю поделиться изображением. Активити облегчают следующие ключевые взаимодействия между системой и приложением:
 
@@ -28,19 +28,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
-
 ```
 {% endtab %}
 
 {% tab title="Java" %}
 ```java
 package com.android.myfirstapp;
- 
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
- 
+
 public class MainActivity extends AppCompatActivity {
- 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,7 +110,7 @@ protected void onCreate(Bundle savedInstanceState) {
 {% endtab %}
 {% endtabs %}
 
-Метод `setContentView(R.layout.activity_main)` отвечает за решение "Какую разметку пользовательского интерфейса использовать?".  Разметка передается в виде аргумента `R.layout.activity_main`.
+Метод `setContentView(R.layout.activity_main)` отвечает за решение "Какую разметку пользовательского интерфейса использовать?". Разметка передается в виде аргумента `R.layout.activity_main`.
 
 * класс `R` - это динамически генерируемый класс во время создания приложения, который идентифицирует все используемые в проекте ресурсы \(макеты, строки, изображения и т.д.\).
 * `layout` - означает конкретную категорию, в которой нужно искать ресурс. В данной случае идет поиск в категории макетов.
@@ -128,7 +127,7 @@ protected void onCreate(Bundle savedInstanceState) {
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
- 
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="0dp"
@@ -139,7 +138,7 @@ protected void onCreate(Bundle savedInstanceState) {
         app:layout_constraintRight_toLeftOf="@+id/button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"  />
- 
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -151,8 +150,8 @@ protected void onCreate(Bundle savedInstanceState) {
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/editText" />
- 
- 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
@@ -160,5 +159,5 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Таким образом, мы создали `Activity`, на котором будет вводится текст и по нажатию на кнопку отправляться на второе `Activity`. Пока не обращайте внимание на подсвечиваемым красным текст `sendMessage`. Данный текст принадлжеит свойству `onClick` кнопки. Данное свойство означает, что по нажатию на кнопку будет вызываться функция `sendMessage`, которую мы объявим позже.
 
-### Контроль
+## Контроль
 

@@ -31,9 +31,5 @@ Android Studio обладает следующими особенностями:
 
 Узнать больше о добавляемых особенностях Android Studio по ссылке ниже:
 
-{% embed url="https://developer.android.com/studio/features" %}
-
-
-
-
+{% embed url="https://developer.android.com/studio/features" caption="" %}
 
