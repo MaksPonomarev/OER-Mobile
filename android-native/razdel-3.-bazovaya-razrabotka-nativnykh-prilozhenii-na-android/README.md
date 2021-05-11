@@ -13,11 +13,5 @@
 
 {% page-ref page="modul-2.-activity.md" %}
 
-{% page-ref page="modul-3.-service.md" %}
-
-{% page-ref page="modul-4.-broadcast-reseiver.md" %}
-
-{% page-ref page="modul-4.-content-provider.md" %}
-
 {% page-ref page="modul-1.-intent.md" %}
 

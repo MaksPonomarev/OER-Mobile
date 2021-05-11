@@ -12,9 +12,3 @@
 
 {% page-ref page="modul-1.-android-sdk.md" %}
 
-{% page-ref page="modul-2.-cpu-profiler.md" %}
-
-{% page-ref page="modul-3.-debugger.md" %}
-
-{% page-ref page="modul-4.-formaty-failov.md" %}
-
