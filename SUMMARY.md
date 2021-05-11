@@ -34,7 +34,7 @@
   * [Контроль модуля](android-native/razdel-2.-android-studio/kontrol-modulya.md)
 * [Модуль 2. Компоненты приложения](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/README.md)
   * [УФ 1. Activity](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-2.-activity.md)
-  * [УФ2. Создание второго Activity](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/uf2.-sozdanie-vtorogo-activity.md)
+  * [УФ2. Создание Activity](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/uf2.-sozdanie-vtorogo-activity.md)
   * [УФ3. Intent](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/modul-1.-intent.md)
   * [Контроль модуля](android-native/razdel-3.-bazovaya-razrabotka-nativnykh-prilozhenii-na-android/kontrol-modulya.md)
 * [Модуль 3. Основы пользовательского интерфейса](android-native/razdel-3.-polzovatelskii-interfeis/README.md)

@@ -23,7 +23,7 @@
 
 ## LinearLayout
 
-Ознакомится с LinaerLayout можно в видео ниже.
+Ознакомится с LinearLayout можно в видео ниже.
 
 {% embed url="https://youtu.be/gm0gCY2qA54?t=88" caption="" %}
 
