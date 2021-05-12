@@ -170,5 +170,7 @@ public class MessageActivity extends AppCompatActivity {
 
 ## Контроль
 
-Ответьте на вопросы
+{% embed url="https://learningapps.org/display?v=p72tezgzc21" %}
+
+
 
