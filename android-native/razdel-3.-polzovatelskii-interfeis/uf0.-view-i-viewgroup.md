@@ -85,5 +85,5 @@ class MainActivity : AppCompatActivity() {
 
 ## Контроль
 
-
+{% embed url="https://learningapps.org/display?v=ppcaba8en21" %}
 
