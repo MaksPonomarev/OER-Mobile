@@ -14,17 +14,6 @@
   * [УФ2. Языки программирования](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-2.-osobennosti-mobilnoi-razrabotki-na-android/2-programming_languages_android.md)
   * [УФ3. Android SDK](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-2.-osobennosti-mobilnoi-razrabotki-na-android/3-android_sdk.md)
   * [УФ4. Android Studio](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-2.-osobennosti-mobilnoi-razrabotki-na-android/4-android_studio.md)
-* [Модуль 3. Особенности мобильной разработки на iOS](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-3.-osobennosti-mobilnoi-razrabotki-na-ios/README.md)
-  * [УФ1. Операционная система iOS](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-3.-osobennosti-mobilnoi-razrabotki-na-ios/1-os_ios.md)
-  * [УФ2. Языки программирования](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-3.-osobennosti-mobilnoi-razrabotki-na-ios/2-ios_programming_languages.md)
-  * [УФ3. iOS SDK](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-3.-osobennosti-mobilnoi-razrabotki-na-ios/3-ios_sdk.md)
-  * [УФ4. xCode](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-3.-osobennosti-mobilnoi-razrabotki-na-ios/4-xcode.md)
-* [Модуль 4. Особенности кроссплатформенной разработки](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-4.-osobennosti-krossplatformennoi-razrabotki/README.md)
-  * [УФ1. React Native](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-4.-osobennosti-krossplatformennoi-razrabotki/1-react_native.md)
-  * [УФ2. Flutter](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-4.-osobennosti-krossplatformennoi-razrabotki/2-flutter.md)
-  * [УФ3. Xamarin](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-4.-osobennosti-krossplatformennoi-razrabotki/3-xamarin.md)
-  * [УФ4. Ionic](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-4.-osobennosti-krossplatformennoi-razrabotki/4-ionic.md)
-  * [УФ5. Unity](razdel-0.-vvedenie-v-razrabotku-mobilnykh-prilozhenii/modul-4.-osobennosti-krossplatformennoi-razrabotki/5-unity.md)
 
 ## Раздел 1 Android Native <a id="android-native"></a>
 
