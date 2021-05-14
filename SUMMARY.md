@@ -49,5 +49,4 @@
   * [УФ1. Создание проекта](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/untitled-8-1.md)
   * [УФ2. Верстка](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/modul-3.-verstka.md)
   * [УФ3. Программирование](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/modul-4.-programmirovanie.md)
-  * [Контроль модуля](android-native/razdel-0.-sozdanie-pervogo-prilozheniya/kontrolnye-voprosy.md)
 
