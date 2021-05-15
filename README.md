@@ -22,6 +22,8 @@
 
 В дальнейшем, при расширении содержания ООР и покрытии большего количества тем потребуются большие знаний в области программирования \(ООП\), знание компьютерных сетей, баз данных, веб-разработки, паттернов проектирования.
 
+Приглашение в Discord: [https://discord.gg/ducXnRRDhV](https://discord.gg/ducXnRRDhV)
+
 Shield: [![](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
