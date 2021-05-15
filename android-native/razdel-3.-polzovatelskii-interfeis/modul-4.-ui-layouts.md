@@ -11,7 +11,7 @@
 
 ## LinearLayout
 
-Ознакомится с LinearLayout можно в видео ниже \(ссылка на канал автора: [https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ](https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ)\). 
+Ознакомится с LinearLayout можно в видео ниже \(ссылка на канал автора: [https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ](https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ)\).
 
 {% embed url="https://youtu.be/gm0gCY2qA54?t=88" caption="" %}
 

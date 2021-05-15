@@ -170,7 +170,5 @@ public class MessageActivity extends AppCompatActivity {
 
 ## Контроль
 
-{% embed url="https://learningapps.org/display?v=p72tezgzc21" %}
-
-
+{% embed url="https://learningapps.org/display?v=p72tezgzc21" caption="" %}
 

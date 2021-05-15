@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-Первая строчка `<?xml version="1.0" encoding="utf-8"?>` означает, что мы работает с файлом xml. Данная строка не является обязательной, однако крайне рекомендуется её присутствие, так как она говорит о том, с какой версией xml идет работа и в какой кодировке. 
+Первая строчка `<?xml version="1.0" encoding="utf-8"?>` означает, что мы работает с файлом xml. Данная строка не является обязательной, однако крайне рекомендуется её присутствие, так как она говорит о том, с какой версией xml идет работа и в какой кодировке.
 
 Тег `<androidx.constraintlayout.widget.ConstraintLayout` означает что мы работаем с макетом вида `ConstraintLayout`, в самом конце находится закрывающий тег.
 
@@ -85,5 +85,5 @@ class MainActivity : AppCompatActivity() {
 
 ## Контроль
 
-{% embed url="https://learningapps.org/display?v=ppcaba8en21" %}
+{% embed url="https://learningapps.org/display?v=ppcaba8en21" caption="" %}
 
