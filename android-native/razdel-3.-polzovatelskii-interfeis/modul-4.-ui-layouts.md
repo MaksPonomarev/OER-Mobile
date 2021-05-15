@@ -11,13 +11,13 @@
 
 ## LinearLayout
 
-Ознакомится с LinearLayout можно в видео ниже.
+Ознакомится с LinearLayout можно в видео ниже \(ссылка на канал автора: [https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ](https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ)\). 
 
 {% embed url="https://youtu.be/gm0gCY2qA54?t=88" caption="" %}
 
 ## ConstraintLayout
 
-Работе с ConstraintLayout можно ознакомится в видео ниже. Следует отметить, что многие пункты панели управления в графическом редакторе используется только с ConstraintLayout.
+Работе с ConstraintLayout можно ознакомится в видео ниже \(ссылка на канал автора: [https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ](https://www.youtube.com/channel/UCzE7HcbvyEiS5ea1rVRbPLQ)\). Следует отметить, что многие пункты панели управления в графическом редакторе используется только с ConstraintLayout.
 
 ![&#x420;&#x438;&#x441;. 1. &#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x440;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430;](../../.gitbook/assets/image%20%2823%29.png)
 
